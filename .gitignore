@@ -1,0 +1,44 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+backend/.venv/
+
+# Model weights (too large for GitHub)
+backend/models/densenet_weights_*
+backend/models/resnet50_weights_*
+backend/models/vgg16_weights_*
+*.h5
+*.pkl
+*.pt
+*.onnx
+
+# Secrets
+.env
+.env.txt
+env.download
+
+# Database
+tumornot.sqbpro
+
+# GradCAM outputs
+backend/static/gradcam/*.png
+backend/static/gradcam/*.jpg
+
+# Frontend build
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+backend/tumornot.db
